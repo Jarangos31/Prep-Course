@@ -46,7 +46,7 @@ describe('agregarPropiedad(object, property)', function() {
 describe('invocarMetodo(object, method)', function() {
   it('should invoke the method on the object', function() {
     const object = {
-      x: 0,
+      x: 1,
       incrementX: function() {
         this.x++;
       },
